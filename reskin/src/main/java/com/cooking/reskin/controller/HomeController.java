@@ -13,4 +13,8 @@ public class HomeController {
     public String index(){
         return "start ci/cd new 123";
     }
+ @GetMapping("/test")
+    public String test(){
+        return "bc";
+    }
 }
