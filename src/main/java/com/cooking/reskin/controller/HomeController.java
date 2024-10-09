@@ -24,5 +24,7 @@ public class HomeController {
         return "bc3";
     }
 
-    public TaskNamespaceHandler
+    public String mergeCode(){
+        return "CBC";
+    }
 }
