@@ -1,6 +1,7 @@
 package com.cooking.reskin.controller;
 
 
+import org.springframework.scheduling.config.TaskNamespaceHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,7 @@ public class HomeController {
     public String index(){
         return "start ci/cd new 123";
     }
- @GetMapping("/test")
+    @GetMapping("/test")
     public String test(){
         return "bc";
     }
@@ -22,4 +23,6 @@ public class HomeController {
 		
         return "bc3";
     }
+
+    public TaskNamespaceHandler
 }
